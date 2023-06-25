@@ -1,0 +1,422 @@
+body{
+	font-family: verdana;
+	font-size: 16px;
+}
+
+
+
+:root{
+	--one: #304ffe;
+	--two: #7b7b7b;
+	--three: #3eb489;
+	--four: #468bfd;
+}
+
+h3{
+	font-size: 34px;
+	font-weight: 600;
+	line-height: 1.5;
+}
+h4{
+	font-size: 34px;
+	font-weight: 600;
+	line-height: 1.5;
+	letter-spacing: -2;
+}
+h6{
+	font-size: 20px;
+	font-weight: 600;
+}
+
+
+
+
+.header{
+    height: 75px;
+    border-bottom: 1px solid #cdcdcd;
+}
+.min-head{
+	padding: 30px 0px 5px 0px;
+
+}
+.logo{float: left;}
+.mybtn{
+	float: right;
+	background: blue;
+	color: #fff;
+	width: 125px;
+	font-size: 15px;
+	font-family: verdana;
+	border-radius: 8px;
+	padding: auto;
+}
+.side1{
+	margin-top: 80px;
+	width: 40%;
+	float: left;
+}
+
+.s1-line-2{
+	margin: 45px 0px;
+}
+.mybtnR{
+	background: blue;
+	color: #fff;
+	width: 155px;
+	font-size: 15px;
+	font-family: verdana;
+	border-radius: 8px;
+	padding: auto;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+.side2{
+	margin-top: 60px;
+	width: 60%;
+	float: left;
+	position: relative;
+}
+.rotate{
+	transform: rotate(-14deg);
+	position: relative;
+	top: 60;
+	display: block;
+}
+.rotate2{
+	display: none;
+	position: relative;}
+.img1{
+	z-index: 55;
+	position: absolute;
+}
+.img2{
+	z-index: 60;
+	position: absolute;
+	left: 84;
+	top: 24;
+}
+.link-line{
+	font-size: 11px;
+	margin-bottom: 50px;
+}
+.fa-linkedin-square{color: blue}
+
+
+/*Section 2 start*/
+
+.box2{
+	margin-top: 100px;
+	position: relative;
+	background-color: blue;
+	color: white;
+}
+.in-box2{
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+.row-line{
+	margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+.i1{border-radius: 20px;
+	
+}
+
+
+
+/*Section 3*/
+.row-line-3{
+	margin-top: 40px;
+	/*display: flex;*/
+}
+
+.tr-1{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+}
+.tr-1-c{
+	width: 85px;
+	height: 85px;
+	border-radius: 50%;
+	background: var(--one);
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-size: 40px;
+	text-align: center;
+	vertical-align: center;
+	line-height: 75px;
+	color: white;
+}
+.tr-1-l{
+	width: 3px;
+	height: 125px;
+	background: var(--one);
+}
+
+.tr-2{
+	text-align: center;
+	letter-spacing: 0;
+	padding: 0px 20px;
+}
+.tr-2-h{
+	color: var(--two);
+	font-size: 24px;
+	font-weight: 600
+}
+.tr-2-b{
+	font-size: 13px;
+}
+
+
+.tr-3{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+}
+.tr-3-c{
+	width: 85px;
+	height: 85px;
+	border-radius: 50%;
+	background: var(--three);
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-size: 40px;
+	text-align: center;
+	vertical-align: center;
+	line-height: 75px;
+	color: white;
+}
+.tr-3-l{
+	width: 3px;
+	height: 125px;
+	background: var(--three);
+}
+
+.tr-4{
+	text-align: center;
+	letter-spacing: 0;
+	padding: 0px 20px;
+}
+.tr-4-h{
+	color: var(--four);
+	font-size: 24px;
+	font-weight: 600;
+}
+.tr-4-b{
+	font-size: 13px;
+}
+
+
+
+.up-tri-2{
+	padding: 0px;
+}
+.tri-up-2{
+	width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 25px solid var(--two);
+	margin:0px auto;
+
+}
+.up-tri-4{
+	padding: 0px;
+}
+.tri-up-4{
+	width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 25px solid var(--four);
+	margin:0px auto;
+}
+
+.down-tri-1{
+	padding: 0px;
+}
+.tri-down-1{
+	width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 25px solid var(--one);
+	margin:0px auto;
+
+}
+.down-tri-3{
+	padding: 0px;
+}
+.tri-down-3{
+	width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 25px solid var(--three);
+	margin:0px auto;
+}
+
+
+.row-mid{
+	width: 100%;
+	height: 65px;
+	margin: 0px 0px;
+	border-radius: 20px;
+	background: linear-gradient(
+    to right, 
+    var(--one) 0%, 
+    var(--one) 25%,
+    var(--two) 25%,
+    var(--two) 50%, 
+    var(--three) 50%,
+    var(--three) 75%,
+    var(--four) 75%, 
+    var(--four) 100%
+  );
+}
+
+
+
+.tr-5{
+	text-align: center;
+	letter-spacing: 0;
+	padding: 0px 20px;
+}
+.tr-5-h{
+	color: var(--one);
+	font-size: 24px;
+	font-weight: 600;
+	margin-top: 30px;
+}
+.tr-5-b{
+	font-size: 13px;
+}
+
+.tr-6{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+}
+.tr-6-c{
+	width: 85px;
+	height: 85px;
+	border-radius: 50%;
+	background: var(--two);
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-size: 40px;
+	text-align: center;
+	vertical-align: center;
+	line-height: 75px;
+	color: white;
+}
+.tr-6-l{
+	width: 3px;
+	height: 125px;
+	background: var(--two);
+}
+
+
+
+
+.tr-7{
+	text-align: center;
+	letter-spacing: 0;
+	padding: 0px 20px;
+}
+.tr-7-h{
+	color: var(--three);
+	font-size: 24px;
+	font-weight: 600;
+	margin-top: 30px;
+}
+.tr-7-b{
+	font-size: 13px;
+}
+
+
+.tr-8{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+}
+.tr-8-c{
+	width: 85px;
+	height: 85px;
+	border-radius: 50%;
+	background: var(--four);
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-size: 40px;
+	text-align: center;
+	vertical-align: center;
+	line-height: 75px;
+	color: white;
+}
+.tr-8-l{
+	width: 3px;
+	height: 125px;
+	background: var(--four);
+}
+
+
+/*End of section 3*/
+
+
+.box4{
+	background-color: blue;
+	margin-top: 80px;
+	color: white;
+
+}
+.in-box4{
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+.box-4-1{padding: 0px 40px 0px 0px}
+.box-4-1 h3{
+	font-size: 30px;
+	font-weight: 550;
+	line-height: 1.5;
+	margin-top: 0px;
+}
+
+.b4-p1{
+	margin-top: 30px;
+	color: #ccd7ff;
+}
+
+.mybtn-Sign-Now{
+	background: #3eb489;
+	color: #fff;
+	width: 155px;
+	font-size: 15px;
+	font-family: verdana;
+	border-radius: 8px;
+	padding: auto;
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+
+/*Section 5*/
+
+.contact-div{
+	border-left: 1px solid var(--two) ;
+	margin: 40px 0px 40px 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+.icons{
+	color: var(--two);
+}
+
