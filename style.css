@@ -107,7 +107,7 @@ h6{
 .box2{
 	margin-top: 100px;
 	position: relative;
-	background-color: blue;
+	background-image: linear-gradient(to right, #13339e, #4082f3 ); 
 	color: white;
 }
 .in-box2{
